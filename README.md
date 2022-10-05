@@ -24,3 +24,9 @@
    - create route for / return backend is ready
    - move products.js from frontend to backend
    - create route for /api/products
+6. Fetch Products From Backend
+   - set proxy in package.json
+   - npm install axios
+   - use state hook
+   - use effect hook
+   - use reducer hook
