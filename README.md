@@ -13,3 +13,14 @@
    - npm i react-router-dom
    - create router for home screen
    - create router for product screen
+5. Create Node.JS Server
+   - npm init in root folder
+   - Update package.json set type: module
+   - Add .jd to imports
+   - npm install express
+   - create server.js
+   - add start command as node backend/server.js
+   - require express
+   - create route for / return backend is ready
+   - move products.js from frontend to backend
+   - create route for /api/products
