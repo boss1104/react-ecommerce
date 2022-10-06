@@ -5,25 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #dad7cd;
 }
-
-header {
-  background-color: #a3b18a;
-  padding: 1rem;
+.site-container {
+  min-height: 100vh;
 }
-header a {
-  color: #344e41;
-  text-decoration: none;
-  font-size: 48px;
-  font-family: 'Crimson Pro', serif;
-  font-weight: bold;
-}
-
 main {
-  padding: 1rem;
+  flex: 1;
 }
-
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -34,12 +22,10 @@ main {
   border: 1px #404040 solid;
   margin: 1rem;
 }
-
 .product img {
   width: 100%;
   max-width: 400px;
 }
-
 .product-info {
   padding: 1rem;
 }

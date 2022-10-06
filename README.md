@@ -32,3 +32,5 @@
    - use reducer hook
 7. Manage State By Reducer Hook
    - update fetch data
+8. Add Bootstrap
+   - npm install react-bootstrap
