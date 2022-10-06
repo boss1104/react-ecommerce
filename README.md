@@ -34,3 +34,7 @@
    - update fetch data
 8. Add Bootstrap
    - npm install react-bootstrap
+9. Create Product Component
+   - create Rating component
+   - create Product component
+   - Use Rating component in Product component

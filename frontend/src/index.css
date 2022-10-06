@@ -9,13 +9,32 @@ body {
 .site-container {
   min-height: 100vh;
 }
+
 main {
   flex: 1;
+  padding: 1rem;
 }
+
+.btn-primary {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 10px 0 rgba(65, 132, 234, 0.75);
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 1rem;
+}
+
+.rating span {
+  color: orange;
 }
 
 .product {
@@ -28,4 +47,34 @@ main {
 }
 .product-info {
   padding: 1rem;
+}
+.btn-primary {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-primary:focus {
+  outline: none;
 }
