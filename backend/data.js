@@ -1,8 +1,8 @@
 const data = {
   products: [
     {
-      name: 'Dried Pampas Grass Bouquet',
-      slug: 'Dried-Pampas-Grass',
+      name: 'Dried Flowers and Pampas Bouquet',
+      slug: 'Dried-Pampas-Bouquet',
       category: 'Bouquet',
       image: '/images/Bouquet1.jpg',
       price: 50,
@@ -17,7 +17,7 @@ const data = {
       category: 'Shelves',
       image: '/images/Shelf1.jpg',
       price: 70,
-      countInStock: 15,
+      countInStock: 0,
       rating: 4.5,
       numReviews: 14,
       description: 'Bohemian Handmade Macrame Shelf',

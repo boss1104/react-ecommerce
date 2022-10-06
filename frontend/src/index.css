@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fbf3e4;
 }
 .site-container {
   min-height: 100vh;
@@ -77,4 +78,8 @@ main {
 
 .btn-primary:focus {
   outline: none;
+}
+
+.img-large {
+  max-width: 100%;
 }
