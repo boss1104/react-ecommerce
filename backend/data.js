@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Dried Flowers and Pampas Bouquet',
       slug: 'Dried-Pampas-Bouquet',
       category: 'Bouquet',
@@ -12,6 +13,7 @@ const data = {
       description: 'Dried Pampas Grass, Palm and Dried Flowers Bouquet',
     },
     {
+      _id: '2',
       name: 'Bohemian Handmade Macrame Shelf',
       slug: 'Macrame-Shelf',
       category: 'Shelves',
@@ -23,6 +25,7 @@ const data = {
       description: 'Bohemian Handmade Macrame Shelf',
     },
     {
+      _id: '3',
       name: 'Minimalist wooden Plant pot',
       slug: 'wooden-plant-pot',
       category: 'Plant pot',
