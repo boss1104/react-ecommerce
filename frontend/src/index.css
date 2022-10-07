@@ -114,3 +114,7 @@ main {
   );
   box-shadow: 0 4px 10px 0 rgba(168, 190, 223, 0.75);
 }
+
+.small-container {
+  max-width: 600px;
+}
