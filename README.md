@@ -64,3 +64,5 @@
     - click handler for checkout
 16. Create Signin Screen
     - create signin form
+17. Connect To MongoDB Database
+    - create atlas mongodb database
