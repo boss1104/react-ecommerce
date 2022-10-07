@@ -66,3 +66,9 @@
     - create signin form
 17. Connect To MongoDB Database
     - create atlas mongodb database
+18. Seed Sample Data
+    - create Product model
+    - create User model
+    - create seed route
+    - use route in server.js
+    - seed sample product
