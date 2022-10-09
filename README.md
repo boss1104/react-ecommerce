@@ -165,3 +165,6 @@
     - Create heroku account
     - Create mongodb atlas database
     - Set database connection in heroku env variables
+32. Sidebar and Search Box
+    - sidebar
+    - search box
