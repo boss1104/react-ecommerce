@@ -155,3 +155,7 @@
     - create order screen
     - create order history api
     - use api in the frontend
+30. Create Profile Screen
+    - show user information
+    - create user update api
+    - update user info
