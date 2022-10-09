@@ -159,3 +159,9 @@
     - show user information
     - create user update api
     - update user info
+31. Publish To Heroku
+    - create and config node project
+    - serve build folder in frontend folder
+    - Create heroku account
+    - Create mongodb atlas database
+    - Set database connection in heroku env variables
