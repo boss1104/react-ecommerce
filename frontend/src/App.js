@@ -24,7 +24,7 @@ import ProfileScreen from './Screens/ProfileScreen';
 import Button from 'react-bootstrap/Button';
 import { getError } from './utils';
 import axios from 'axios';
-import SearchBox from './components/SearchBox';
+import SearchBox from './Components/SearchBox';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
