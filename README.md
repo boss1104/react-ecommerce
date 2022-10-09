@@ -38,6 +38,8 @@
 | Checkout       | &#10004; | Ability to Checkout                          |
 | Payment        | &#10004; | Ability to Pay with PayPal Developer Sandbox |
 
+---
+
 # Sections:
 
 1. Create React App
