@@ -122,3 +122,7 @@
     - handle submit action
     - save token in store
     - show user name in header
+22. Create Shipping Screen
+    - create form inputs
+    - handle save shipping address
+    - add checkout wizard bar
