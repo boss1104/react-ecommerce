@@ -176,3 +176,7 @@
     - protected route component
     - admin route component
     - menu for admin in header
+35. Dashboard Screen
+    - dashboard ui
+    - backend api
+    - connect ui to backend
