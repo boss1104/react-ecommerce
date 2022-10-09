@@ -135,5 +135,7 @@
     - handle submit
 25. Create Place Order Screen
     - show cart items, payment and address
+    - calculate order summary
+26. Implement Place Order Action
     - handle place order action
     - create order create api
