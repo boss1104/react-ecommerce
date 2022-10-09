@@ -202,5 +202,3 @@
     - api key in env file
     - handle upload file
     - implement backend api to upload
-41. Add Footer
-    - styled component Footer
