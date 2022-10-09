@@ -1,15 +1,15 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import {
-  Facebook,
-  Instagram,
-  Pinterest,
-  Twitter,
-  YouTube,
-  Room,
-  Phone,
-  Mail,
-} from '@material-ui/icons';
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaPinterestSquare,
+  FaYoutubeSquare,
+  FaTwitterSquare,
+  BsPinMap,
+  BsTelephone,
+  HiOutlineMail,
+} from 'react-icons/md';
 import styled from 'styled-components';
 
 const Footer = () => (
@@ -20,19 +20,19 @@ const Footer = () => (
         <LinksDes>FIND US ON:</LinksDes>
         <SocialContainer>
           <SocialIcon color="3B5999">
-            <Facebook />
+            <FaFacebookSquare />
           </SocialIcon>
           <SocialIcon color="E4405F">
-            <Instagram />
+            <FaInstagramSquare />
           </SocialIcon>
           <SocialIcon color="1DA1F2">
-            <Twitter />
+            <FaTwitterSquare />
           </SocialIcon>
           <SocialIcon color="FF0000">
-            <YouTube />
+            <FaYoutubeSquare />
           </SocialIcon>
           <SocialIcon color="E60023">
-            <Pinterest />
+            <FaPinterestSquare />
           </SocialIcon>
         </SocialContainer>
         <LinksDes> © All rights reserved</LinksDes>
@@ -70,15 +70,15 @@ const Footer = () => (
       <Right>
         <Title>Contact us:</Title>
         <ContactItem>
-          <Room style={{ marginRight: '10px' }} />
+          <BsPinMap style={{ marginRight: '10px' }} />
           62 Example st. tower B floor 2 Tel Aviv 67897
         </ContactItem>
         <ContactItem>
-          <Phone style={{ marginRight: '10px' }} />
+          <BsTelephone style={{ marginRight: '10px' }} />
           Phone: +972-12-3456789
         </ContactItem>
         <ContactItem>
-          <Mail style={{ marginRight: '10px' }} />
+          <HiOutlineMail style={{ marginRight: '10px' }} />
           Email: contact@onlineshop.co.il
         </ContactItem>
       </Right>
