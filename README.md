@@ -168,3 +168,7 @@
 32. Sidebar and Search Box
     - sidebar
     - search box
+33. Create Search Screen
+    - filters
+    - api for searching products
+    - display results
