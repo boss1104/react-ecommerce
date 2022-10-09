@@ -172,3 +172,7 @@
     - filters
     - api for searching products
     - display results
+34. Admin Menu
+    - protected route component
+    - admin route component
+    - menu for admin in header
