@@ -178,5 +178,9 @@
     - menu for admin in header
 35. Dashboard Screen
     - dashboard ui
-    - backend api
+    - implement backend api
     - connect ui to backend
+36. Manage Products
+    - products list ui
+    - implement backend api
+    - fetch data
