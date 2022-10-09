@@ -97,6 +97,7 @@ export default function ProductEditScreen() {
           price,
           image,
           category,
+
           countInStock,
           description,
         },
