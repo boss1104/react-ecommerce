@@ -5,37 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fbf3e4;
 }
 .site-container {
   min-height: 100vh;
 }
-
 main {
   flex: 1;
-  padding: 1rem;
 }
-
-.btn-primary {
-  background-image: linear-gradient(
-    to right,
-    #25aae1,
-    #4481eb,
-    #04befe,
-    #3f86ed
-  );
-  box-shadow: 0 4px 10px 0 rgba(65, 132, 234, 0.75);
+.btn-primary,
+.btn-outline-primary {
+  background-color: #f0c040;
+  color: #000000;
 }
-
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 1rem;
 }
 
 .rating span {
-  color: orange;
+  color: #ffc000;
 }
 
 .product {
@@ -49,72 +38,12 @@ main {
 .product-info {
   padding: 1rem;
 }
-.btn-primary {
-  width: 150px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  cursor: pointer;
-  margin: 20px;
-  height: 55px;
-  text-align: center;
-  border: none;
-  background-size: 300% 100%;
-
-  border-radius: 50px;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.btn-primary:hover {
-  background-position: 100% 0;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.btn-primary:focus {
-  outline: none;
-}
-
 .img-large {
   max-width: 100%;
 }
-
 .img-thumbnail {
   height: 80px;
 }
-
-.btn-ofs {
-  width: 150px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  cursor: pointer;
-  margin: 20px;
-  height: 55px;
-  text-align: center;
-  border: none;
-  background-size: 300% 100%;
-
-  border-radius: 50px;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(
-    to right,
-    #a3c9d9,
-    #b3c5e3,
-    #adcbd4,
-    #a7bddf
-  );
-  box-shadow: 0 4px 10px 0 rgba(168, 190, 223, 0.75);
-}
-
 .small-container {
   max-width: 600px;
 }
@@ -124,6 +53,29 @@ main {
   color: #a0a0a0;
 }
 .checkout-steps > div.active {
-  border-bottom: 0.2rem solid #5bf4ff;
-  color: #37abb4;
+  border-bottom: 0.2rem solid #f08000;
+  color: #f08000;
+}
+
+/* sidebar */
+.navbar-brand {
+  font-weight: bold;
+}
+.side-navbar {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+
+.site-container {
+  transition: 0.4s;
+}
+.active-cont {
+  margin-left: 240px;
+}
+.active-nav {
+  left: 0;
 }
